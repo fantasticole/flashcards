@@ -1,0 +1,49 @@
+html{
+	background-color: #2B0065;
+	color: #DCC5D2;
+	font-family: courier;
+	text-align: center;
+}
+.parent{
+	display: flex;
+	flex-direction: row;
+	/*height: 96%;*/
+	/*width: 96%;*/
+	/*background-color: #003F91;*/
+	position: fixed;
+	bottom: 10px;
+	top: 10px;
+	left: 10px;
+	right: 10px;
+	/*border-radius: 10px;*/
+}
+.decks{
+	/*flex: 1;*/
+	/*position: absolute;*/
+	padding: 10px;
+	margin-right: 10px;
+	/*float: left;*/
+	/*background-color: #A9DBB8;*/
+	background-color: #E0F2FF;
+	color: #2B0065;
+	border: 1px solid #65FCFC;
+	border-radius: 10px;
+	height: 90%;
+	width: 20%;
+}
+.cards{
+	/*flex: 3;*/
+	/*position: absolute;*/
+	padding: 10px;
+	/*float: right;*/
+	/*background-color: #A9DBB8;*/
+	background-color: #5DA9E9;
+	color: #2B0065;
+	border: 1px solid #65FCFC;
+	border-radius: 10px;
+	height: 90%;
+	width: 75%;
+}
+p{
+	color: #CAABEB;
+}
