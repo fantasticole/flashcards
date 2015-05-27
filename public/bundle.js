@@ -19843,7 +19843,8 @@ var Cards = React.createClass({displayName: "Cards",
 	}
 });
 
-React.render(React.createElement(Parent, null), document.body);
+// React.render(<Parent/>, document.body);
+React.render(React.createElement(Parent, null), document.getElementById("container"));
 
 window.React = React;
 

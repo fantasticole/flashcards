@@ -32,6 +32,7 @@ var Cards = React.createClass({
 	}
 });
 
-React.render(<Parent/>, document.body);
+// React.render(<Parent/>, document.body);
+React.render(<Parent/>, document.getElementById("container"));
 
 window.React = React;
